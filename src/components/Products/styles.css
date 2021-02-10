@@ -17,6 +17,12 @@ h1 {
   color: rgb(117, 117, 117);
 }
 
-li{
+li {
   list-style: none;
+  margin-right: 10px; 
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
 }
