@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import logoheader from '../Assets/logoheader.png';
+//import logoheader from '../Assets/logoheader.png';
 
 
 
@@ -9,10 +9,7 @@ function Header({title1, title2, title3, title4, title5, title6}){
 
         <div className="top-header">
 
-            <div className="logo-header">
-               <img src={logoheader}/> 
 
-            </div>
 
             <div className="menu-header">
 
@@ -35,3 +32,8 @@ function Header({title1, title2, title3, title4, title5, title6}){
 }
 
 export default Header;
+
+//<div className="logo-header">
+//<img src={logoheader}/> 
+
+//</div>
