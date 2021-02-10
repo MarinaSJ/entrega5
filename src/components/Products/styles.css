@@ -9,6 +9,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   color: rgb(117, 117, 117);
+  list-style: none;
 }
 
 h1 {

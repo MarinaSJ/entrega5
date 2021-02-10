@@ -1,44 +1,44 @@
-.conteiner{
-  display:flex;
+.conteiner {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  font-size:10px;
+  font-size: 10px;
 }
 
-.title-conteiner{
-margin-right:5px;
+.title-conteiner {
+  margin-right: 5px;
 }
 
-.counter-conteiner{
-  display:flex;
+.counter-conteiner {
+  display: flex;
   flex-direction: row;
-  justify-content: center;
-  
+  justify-content: space-between;
+  background-color: blue;
   width: 100%;
 }
 
-button{
-  padding:5px;
-  color: rgb(117,117,117);
+button {
+  padding: 5px;
+  color: rgb(117, 117, 117);
 }
 
-button.hover, #sacola.hover{
+button.hover,
+#sacola.hover {
   background-color: rgb(117, 117, 117);
-  color:white;
+  color: white;
 }
 
-h1{
-  font-size:15px;
+h1 {
+  font-size: 15px;
 }
 
-counter{
-font-size: 10px;
+counter {
+  font-size: 10px;
 }
 
-#sacola{
-font-family:arial;
-width:100%;
-color: rgb(117,117,117);
+#sacola {
+  font-family: arial;
+  width: 100%;
+  color: rgb(117, 117, 117);
 }
-
