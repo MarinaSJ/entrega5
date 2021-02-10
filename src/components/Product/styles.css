@@ -15,7 +15,7 @@
     background-color: whitesmoke;
     border-radius: 3px;
     width: auto;
-    height:80%;
+    height:100%;
 }
 
 .picture-iogurt{
@@ -32,7 +32,7 @@
   height: 100%;
   widtht: auto;
   color: rgb(117, 117, 117);
-  background-color: red;
+  background-color: blue
 }
 
 .written{
@@ -40,7 +40,6 @@
   flex-direction:column;
   justify-content: space-between;
   height:100%;
-  background-color: yellow;
 }
 
 h2{

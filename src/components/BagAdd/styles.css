@@ -3,22 +3,37 @@
   align-items: center;
 }
 
-.counter-conteiner{
-  display:flex;
-  align-content: center;
-  justify-content: space-between;
+.title-conteiner{
+margin-right:5px;
 }
 
-.buttons{
-  padding:5px;
-  width:px;
+.counter-conteiner{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: space-evenly;
   background-color: blue;
+  width: 100%;
+}
+
+button{
+  padding:5px;
+}
+
+button.hover, #sacola.hover{
+  background-color: rgb(117, 117, 117);
+  color:white;
 }
 
 h1{
-  font-size:5px;
+  font-size:10px;
+}
+
+counter{
+font-size: 10px;
 }
 
 #sacola{
 font-family:arial;
+width:100%;
 }

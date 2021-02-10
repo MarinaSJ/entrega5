@@ -9,7 +9,7 @@ function Product({name, weight, nutri}){
   return(
     <div className="body">
       <div className="main-product">
-        <>
+        
         <div className="picture-iogurt">
             <img src={iogurte}/> 
         </div>
@@ -23,14 +23,14 @@ function Product({name, weight, nutri}){
           </div>
 
           <BagAdd/>
-        </div>
-
           <form>
             <input id="cep" placeholder="Adicionar CEP"/>
             <input type="submit" value="Calcular Frete" id="frete"/>
           </form>
-        </>
         </div>
+
+        
+        
       </div>
     </div>
 
