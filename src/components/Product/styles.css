@@ -1,5 +1,5 @@
 .body{
-  widht: 100%;
+  width: 100%;
   height:100%;
   background-color:orange;
   display: flex;
@@ -20,7 +20,7 @@
 
 .picture-iogurt{
   height: 100%;
-  widht: auto;
+  width: auto;
 }
 
 .info-iogurt{
@@ -30,7 +30,7 @@
   flex-direction:column;
   align-content: space-between;
   height: 100%;
-  widtht: auto;
+  width: auto;
   color: rgb(117, 117, 117);
   background-color: blue
 }
