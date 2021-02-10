@@ -16,3 +16,7 @@ h1 {
   font-family: arial;
   color: rgb(117, 117, 117);
 }
+
+li{
+  list-style: none;
+}
