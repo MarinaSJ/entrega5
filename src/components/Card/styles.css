@@ -1,0 +1,9 @@
+.fila-product {
+  display: flex;
+  flex-direction: column;
+}
+
+h5 {
+  font-family: arial;
+  font-size: 10px;
+}

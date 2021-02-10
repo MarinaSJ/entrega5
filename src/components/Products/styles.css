@@ -1,0 +1,17 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: rgb(117, 117, 117);
+}
+
+h1 {
+  font-family: arial;
+  color: rgb(117, 117, 117);
+}
