@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 import BagAdd from "../../components/BagAdd/index";
-import Products from "../../components/Products/index";
+import More from "../../components/More/index";
 import Header from "../../components/Header/index";
 import{ Link } from "react-router-dom";
 
@@ -45,7 +45,7 @@ function Product({ name="yogoberry", picture="https://yogoberry.com.br/wp-conten
           </div>
         </div>
       </div>
-      <Products name1="Yogochoc"
+      <More name1="Yogochoc"
       name2="Yogogreen"
       name3="Yogopink"
       />
