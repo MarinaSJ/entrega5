@@ -8,10 +8,24 @@
 }
 
 .logo-header{
-    display: flex;
+    display:flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 20%
+    justify-content: flex-start;
+    height: 100%;
+}
+
+img{
+    height: 100%;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    color: white;
+    font-family: arial;
+    font-size: small;
 }
 
 .menu-header{

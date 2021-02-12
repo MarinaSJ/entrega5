@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styles.css';
 
+
 export default function BagAdd(){
   const [counter, setCounter] = useState(0);
 
@@ -33,8 +34,7 @@ export default function BagAdd(){
           </div>        
         </div>
       </div>
-      <input type="submit" value="Adicionar a sacola" id="sacola"/>
-
+      
     </div>
   )
 }

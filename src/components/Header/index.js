@@ -1,15 +1,19 @@
 import React from 'react';
 import './styles.css';
-//import logoheader from '../Assets/logoheader.png';
+import logoheader from '../Assets/logoheader.png';
 
 
 
-function Header({title1, title2, title3, title4, title5, title6}){
+function Header({title1="Home", title2="Quem Somos", title3="Produtos", title4="Contatos", title5="Pesquisar", title6="Cadastrar-se"}){
     return(
 
         <div className="top-header">
-
-
+            <div className="logo-header">
+                <img src={logoheader}/>
+                <div className="brand">
+                    <h2>ioGO!</h2>
+                </div>
+            </div>
 
             <div className="menu-header">
 
@@ -33,7 +37,3 @@ function Header({title1, title2, title3, title4, title5, title6}){
 
 export default Header;
 
-//<div className="logo-header">
-//<img src={logoheader}/> 
-
-//</div>

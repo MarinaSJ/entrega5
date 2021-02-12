@@ -1,4 +1,4 @@
-.fila-product {
+.product-item {
   display: flex;
   flex-direction: column;
 }
@@ -7,5 +7,17 @@ h5 {
   font-family: arial;
   font-size: 10px;
   list-style: none;
+  color: rgb(117,117,117)
 
+}
+
+.product{
+  height: 100px;
+  width: auto;
+}
+
+.product-text{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }

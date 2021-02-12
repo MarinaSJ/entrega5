@@ -25,8 +25,7 @@ button {
   color: rgb(117, 117, 117);
 }
 
-button.hover,
-#sacola.hover {
+button.hover{
   background-color: rgb(117, 117, 117);
   color: white;
 }
@@ -39,8 +38,3 @@ counter {
   font-size: 10px;
 }
 
-#sacola {
-  font-family: arial;
-  width: 100%;
-  color: rgb(117, 117, 117);
-}
