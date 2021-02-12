@@ -3,6 +3,9 @@ import "./styles.css";
 
 import Card from "../Card/index";
 
+import{ Link } from "react-router-dom";
+
+
 function Products({ name1, name2, name3 }) {
   const list = [
     {
@@ -22,7 +25,9 @@ function Products({ name1, name2, name3 }) {
 
   const renderList = list.map((item) => (
     <li key={item.id.toString()}>
-      <Card picture={item.picture} name={item.name} />
+      <Link style={{textDecoration:"none"}} to={{pathname:"/product", state:{name: item.name, picture: item.picture}}} >
+        <Card picture={item.picture} name={item.name} />
+      </Link>
     </li>
   ));
 
