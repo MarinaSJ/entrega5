@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import logoheader from '../Assets/logoheader.png';
+import{ Link } from "react-router-dom";
 
 
 
@@ -23,6 +24,11 @@ function Header({title1="Home", title2="Quem Somos", title3="Produtos", title4="
                 <h4>{title4}</h4>
                 <h4>{title5}</h4>
                 <h4>{title6}</h4>
+                <Link style={{textDecoration:"none"}} to={{pathname:"/shoppings"}} >
+                    <h4>Sacola</h4>
+                </Link>
+
+                
 
             </div>
             

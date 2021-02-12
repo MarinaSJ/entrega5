@@ -5,7 +5,7 @@ import Header from "../../components/Header/index";
 import ShoppingList from "../../components/ShoppingList";
 
 
-export default function Bag({name,picture,quantity=1}){
+export default function Bag({name,picture,quantity=1,funcao="no"}){
     return(
         <>
             <Header
@@ -20,6 +20,7 @@ export default function Bag({name,picture,quantity=1}){
             name={name}
             picture={picture}
             quantity={quantity}
+            funcao={funcao}
             />
         </>
     )

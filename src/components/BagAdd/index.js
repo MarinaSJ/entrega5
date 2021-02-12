@@ -21,7 +21,6 @@ export default function BagAdd(){
   }
 
   return(
-    <div className="bag">
       <div className="conteiner">
         <div className="title-conteiner">
           <h1>Quantidade: </h1>
@@ -34,7 +33,5 @@ export default function BagAdd(){
           </div>        
         </div>
       </div>
-      
-    </div>
   )
 }

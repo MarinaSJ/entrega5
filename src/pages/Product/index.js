@@ -10,6 +10,7 @@ import{ Link } from "react-router-dom";
 function Product({ name="yogoberry", picture="https://yogoberry.com.br/wp-content/uploads/2019/10/Frozen-Yogurt.png", weight="100g", nutri="Informações nutricionais: Carboidratos - 20g; Fibras alimentares - 0g; Açúcar - 0g; Gorduras - 0g; Saturada - 0g; Poliinsaturada - 0g; Monoinsaturada - 0g;  Trans - 0g; Proteínas - 4g; Sódio - 0mg; Potássio - 0mg;  Colesterol - 0mg; Vitamina A - 0%; Vitamina C - 0%;  Cálcio - 0%; Ferro - 0%;   (    As porcentagens são baseadas em uma dieta de 2000 calorias por dia.)" }) {
   return (
     <>
+    
       <Header
       title1="Home"
       title2="Quem Somos"
@@ -33,7 +34,7 @@ function Product({ name="yogoberry", picture="https://yogoberry.com.br/wp-conten
             </div>
             <div className="interaction">
               <BagAdd />
-              <Link style={{textDecoration:"none"}} to={{pathname:"/shoppings", state:{name: name, picture: picture}}} >
+              <Link style={{textDecoration:"none"}} to={{pathname:"/shoppings", state:{name: name, picture: picture, funcao:"yes"}}} >
                 <input type="submit" value="Adicionar a sacola" id="sacola"/>
               </Link>
               <form>
