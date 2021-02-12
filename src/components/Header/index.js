@@ -17,8 +17,9 @@ function Header({title1="Home", title2="Quem Somos", title3="Produtos", title4="
             </div>
 
             <div className="menu-header">
-
-                <h4>{title1}</h4>
+                <Link style={{textDecoration:"none"}} to="/" > 
+                    <h4>{title1}</h4>
+                </Link>
                 <h4>{title2}</h4>
                 <h4>{title3}</h4>
                 <h4>{title4}</h4>
